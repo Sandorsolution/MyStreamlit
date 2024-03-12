@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Uber pickups in NYC')
+st.write_stream('Uber pickups in NYC')
 
 st.button('Hit me')
 #st.data_editor('Edit data', data)
